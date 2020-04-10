@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent">
+    <TextView
+            android:text="减压模块"
+            android:textSize="35dp"
+            android:id="@+id/stress_down"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="27dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageView9" app:layout_constraintStart_toEndOf="@+id/imageView5"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="81dp"
+            android:layout_marginRight="81dp"/>
+    <ImageView
+            android:layout_width="0dp"
+            android:src="@mipmap/one"
+            android:layout_height="0dp"
+            android:id="@+id/imageView5"
+            app:layout_constraintTop_toBottomOf="@+id/textView10" app:layout_constraintEnd_toStartOf="@+id/stress_down"
+            android:layout_marginBottom="33dp" app:layout_constraintBottom_toTopOf="@+id/imageView6"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="40dp"
+            android:layout_marginStart="40dp" android:layout_marginEnd="39dp" android:layout_marginRight="39dp"/>
+    <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:src="@mipmap/two"
+            android:id="@+id/imageView6"
+            app:layout_constraintTop_toBottomOf="@+id/imageView9"
+            app:layout_constraintEnd_toStartOf="@+id/discipline" android:layout_marginBottom="281dp"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginEnd="28dp" android:layout_marginRight="28dp"/>
+    <ImageView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:scaleType="fitXY"
+            android:src="@mipmap/third"
+            android:id="@+id/imageView8"
+            app:layout_constraintTop_toBottomOf="@+id/imageView6" app:layout_constraintEnd_toStartOf="@+id/personnal"
+            android:layout_marginBottom="4dp" app:layout_constraintBottom_toTopOf="@+id/imageView10"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="32dp"
+            android:layout_marginStart="32dp" android:layout_marginEnd="46dp" android:layout_marginRight="46dp"/>
+    <TextView
+            android:text="自律模块"
+            android:textSize="35dp"
+            android:layout_width="0dp"
+            android:layout_height="98dp"
+            android:id="@+id/discipline"
+            android:layout_marginTop="147dp"
+            app:layout_constraintStart_toEndOf="@+id/imageView6" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginBottom="146dp" app:layout_constraintBottom_toTopOf="@+id/imageView10"
+            app:layout_constraintTop_toTopOf="@+id/imageView5" android:layout_marginEnd="59dp"
+            android:layout_marginRight="59dp"/>
+    <TextView
+            android:text="个人中心"
+            android:textSize="35dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/personnal"
+            android:layout_marginTop="22dp"
+            app:layout_constraintTop_toBottomOf="@+id/discipline" app:layout_constraintStart_toEndOf="@+id/imageView8"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="81dp"
+            android:layout_marginRight="81dp"/>
+    <ImageView
+            android:scaleType="fitXY"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:src="@mipmap/begin"
+            android:id="@+id/imageView9"
+            android:layout_marginTop="70dp"
+            android:layout_marginBottom="117dp" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/imageView6" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="12dp"
+            android:layout_marginStart="12dp" android:layout_marginEnd="12dp" android:layout_marginRight="12dp"/>
+    <TextView
+            android:text="开启生活之旅"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/textView10"
+            android:layout_marginBottom="118dp"
+            app:layout_constraintEnd_toEndOf="@+id/imageView9" app:layout_constraintBottom_toTopOf="@+id/imageView5"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="16dp" android:layout_marginStart="16dp" android:layout_marginEnd="32dp"
+            android:layout_marginRight="32dp"/>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:scaleType="fitXY"
+            android:layout_height="0dp"
+            android:src="@mipmap/beginbottom"
+            android:id="@+id/imageView10"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@+id/imageView8"/>
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                             xmlns:app="http://schemas.android.com/apk/res-auto"
+                                             xmlns:tools="http://schemas.android.com/tools"
+                                             android:layout_width="match_parent"
+                                             android:layout_height="match_parent"
+>
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:alpha="0.7"
+            android:src="@mipmap/star_cloud"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            android:id="@+id/imageView2" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintVertical_bias="0.0"/>
+    <ImageView
+            android:layout_width="77dp"
+            android:layout_height="61dp"
+            android:src="@android:drawable/ic_menu_revert"
+            android:id="@+id/back"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintStart_toStartOf="@+id/imageView2"
+    />
+    <ImageView
+            android:layout_width="91dp"
+            android:layout_height="87dp"
+            android:src="@android:drawable/ic_media_pause"
+            android:id="@+id/stop" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" android:layout_marginTop="8dp"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.816"
+            android:layout_marginStart="8dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginLeft="8dp" android:layout_marginEnd="8dp" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginRight="8dp"/>
+    <TextView
+            android:text="@string/nature"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="89dp"
+            android:id="@+id/textView" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="368dp"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.989"
+            android:layout_marginLeft="64dp" android:layout_marginStart="64dp"
+            app:layout_constraintTop_toBottomOf="@+id/back"/>
+    <TextView
+            android:text="·"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="40dp"
+            android:gravity="center"
+            android:layout_width="59dp"
+            android:layout_height="70dp"
+            android:id="@+id/textView2"
+            app:layout_constraintBottom_toBottomOf="@+id/textView" android:layout_marginBottom="12dp"
+            android:layout_marginEnd="48dp" android:layout_marginRight="48dp"
+            app:layout_constraintEnd_toEndOf="@+id/textView3"/>
+    <TextView
+            android:text="@string/star_cloud"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView3"
+            app:layout_constraintBottom_toBottomOf="@+id/textView"
+            app:layout_constraintTop_toTopOf="@+id/textView" app:layout_constraintVertical_bias="0.479"
+            android:layout_marginEnd="72dp" android:layout_marginRight="72dp"
+            app:layout_constraintEnd_toEndOf="parent"/>
+</android.support.constraint.ConstraintLayout>

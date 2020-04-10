@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">减压和自律软件</string>
+    <string name="nature">大自然的频率</string>
+    <string name="star_cloud">星云</string>
+    <string name="sleep">入眠</string>
+    <string name="rain">雨水</string>
+    <string name="study">学习</string>
+    <string name="happy">快乐</string>
+    <string name="leaves">叶落</string>
+    <string name="reading">阅读</string>
+    <string name="star_sky">星空</string>
+    <string name="bird">鸟鸣</string>
+    <string name="fall">瀑布</string>
+    <string name="sea_water">浪潮</string>
+    <string name="mountain">山风</string>
+    <string name="fire">篝火</string>
+    <string name="firework">烟花</string>
+    <string name="password">请输入密码</string>
+    <string name="name">请输入姓名</string>
+    <string name="sex">请输入性别</string>
+    <string name="age">请输入年龄</string>
+    <string name="question">请输入密保问题</string>
+    <string name="answer">请输入答案</string>
+</resources>

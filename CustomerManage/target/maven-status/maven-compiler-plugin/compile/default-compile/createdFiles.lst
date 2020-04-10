@@ -1,0 +1,6 @@
+com/soul/entity/User.class
+com/soul/dao/UserDao.class
+com/soul/controller/UserController.class
+com/soul/Application.class
+com/soul/service/impl/UserServiceImpl.class
+com/soul/service/UserService.class
